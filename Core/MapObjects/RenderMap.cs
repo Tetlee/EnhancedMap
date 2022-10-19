@@ -23,7 +23,7 @@ namespace EnhancedMap.Core.MapObjects
         {
             if (_steps > 0)
             {
-                for (int i = 0; i < PALETTE_LENGTH; i++)
+                for (int i = 0; i < bmp.Palette.Entries.Length; i++)
                     Entries[i] = (uint) (-16777216 | (bmp.Palette.Entries[i].R << 16) | (bmp.Palette.Entries[i].G << 8) | bmp.Palette.Entries[i].B);
                 _steps--;
 
