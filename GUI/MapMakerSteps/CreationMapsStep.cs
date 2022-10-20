@@ -60,10 +60,10 @@ namespace EnhancedMap.GUI.MapMakerSteps
                                 }
                             }
                         }
-                        catch (WebException webEx)
+                        catch (WebException)
                         {
                         }
-                        catch (Exception ex)
+                        catch (Exception)
                         {
                         }
                     }

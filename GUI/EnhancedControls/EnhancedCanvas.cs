@@ -13,7 +13,7 @@ namespace EnhancedMap.GUI
 
     public partial class EnhancedCanvas : UserControl
     {
-        private bool _scrollUpdate;
+        //private bool _scrollUpdate;
 
         public EnhancedCanvas()
         {
@@ -115,7 +115,7 @@ namespace EnhancedMap.GUI
 
         /* private void EventSink_MapChangedEvent(OnMapChangedEventArgs e)
         {
-            
+
         }*/
 
         /*  private void EventSink_ScrollVisibleEvent(OnScrollVisibleEventArgs e)
@@ -126,7 +126,7 @@ namespace EnhancedMap.GUI
 
         private void UpdateScrollbars(int x, int y)
         {
-            _scrollUpdate = true;
+            //_scrollUpdate = true;
 
             if (x < 0)
                 x = 0;
@@ -143,7 +143,7 @@ namespace EnhancedMap.GUI
             hScrollBar.Invalidate();
             vScrollBar.Invalidate();
 
-            _scrollUpdate = false;
+            //_scrollUpdate = false;
         }
 
         public class ZoomInfo

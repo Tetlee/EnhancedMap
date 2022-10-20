@@ -185,10 +185,10 @@ namespace EnhancedMap
                 var principal = new WindowsPrincipal(user);
                 return principal.IsInRole(WindowsBuiltInRole.Administrator);
             }
-            catch (UnauthorizedAccessException e)
+            catch (UnauthorizedAccessException)
             {
             }
-            catch (Exception e)
+            catch (Exception)
             {
             }
 
@@ -240,7 +240,7 @@ namespace EnhancedMap
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 Application.Exit();
             }

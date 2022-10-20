@@ -130,12 +130,12 @@ namespace EnhancedMap.Core.Network
                     _client.DownloadStringAsync(new Uri("http://razorenhanced.org/download/Version-EM.txt"));
 #endif
                 }
-                catch (WebException webEx)
+                catch (WebException)
                 {
                     Checking = false;
                     MessageBox.Show("Failed to comunicate with server", "Error");
                 }
-                catch (Exception ex)
+                catch (Exception)
                 {
                     Checking = false;
                     MessageBox.Show("Failed to download new version.", "Error");
