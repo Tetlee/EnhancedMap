@@ -239,7 +239,6 @@ namespace EnhancedMap.GUI.SettingsLayouts
                     Global.Facet = Global.Facet;
                 }
             };
-            customFlatButtonCheckNewVersion.Click += (sender, e) => { Core.Network.Update.CheckUpdates(); };
 
             radioButtonEnhanced.CheckedChanged += (sender, e) => { label3.Visible = textBoxClientPath.Visible = customButtonClientPath.Visible = radioButtonEnhanced.Checked; };
 

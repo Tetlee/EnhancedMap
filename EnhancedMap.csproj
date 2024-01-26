@@ -205,7 +205,6 @@
     <Compile Include="Core\Utility.cs" />
     <Compile Include="Core\Network\Packets\Packet.cs" />
     <Compile Include="Core\Network\Packets\PacketWriter.cs" />
-    <Compile Include="Core\Network\Update.cs" />
     <Compile Include="GUI\PlacesEditorF.cs">
       <SubType>Form</SubType>
     </Compile>

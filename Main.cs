@@ -164,14 +164,6 @@ namespace EnhancedMap
                 }*/
 #endif
 
-                try
-                {
-                    Update.CheckUpdates();
-                }
-                catch
-                {
-                }
-
                 FilesManager.Load();
                 Application.Run(new MainWindow());
             }
